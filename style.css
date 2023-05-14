@@ -455,7 +455,7 @@
 
 .contact-title{
     text-align: center;
-    background: linear-gradient(to left top, rgba(69, 128, 200, 0.677), rgba(226, 224, 220, 0.627));
+    background: linear-gradient(to left top, rgba(228, 93, 9, 0.83), rgba(226, 224, 220, 0.627));
     font-weight: 200;
     font-size: 1.8rem;
 }
@@ -473,7 +473,7 @@
     margin-top: 1%;
 }
 
-/*Stilizimet e seksionit 3 per faqen contact*/
+/*Stilizimet e seksionit 3 per contattacipage*/
 
 .maps{
     margin-top: 2%;
@@ -482,5 +482,42 @@
 .newyork{
     display: flex;
     justify-content: center;
+}
+
+/*Stilizimet e seksionit 1 per faqen prenotapage*/
+
+.sec1prenota{
+    margin-top: 2%;
+}
+
+.prenota{
+    text-align: center;
+    background: linear-gradient(to left top, rgba(56, 132, 153, 0.945), rgba(226, 224, 220, 0.627));
+    font-weight: 200;
+    font-size: 1.8rem; 
+}
+
+/*Stilizimet e seksionit 1 per faqen prenotapage*/
+
+.form-cont{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.label-text{
+    font-size: 0.9rem;
+}
+
+.mycontrol{
+    font-size: 0.8rem;
+}
+
+.payment-btn{
+    margin: 2%;
+    background-color: rgba(0, 0, 0, 0.592);
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    font-size: 15px;
 }
 

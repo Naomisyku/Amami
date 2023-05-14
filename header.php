@@ -33,7 +33,7 @@
                         <a class="nav-link" href="contattaci.php">Contattaci</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="prenota.php">Noi</a>
+                        <a class="nav-link" href="prenota.php">Prenota</a>
                       </li>
                 </div>
         </div>

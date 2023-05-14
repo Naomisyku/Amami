@@ -31,7 +31,7 @@ include 'header.php';
             <div class="card">
                 <div class="card-body">
                 <h6 class="card-subtitle mb-2 text-muted">Cellulare</h6>
-                <h6>+1212-490-2121</h6>
+                <h6>+3990-0896-7598</h6>
             </div>
            </div>
             </div>
@@ -59,17 +59,6 @@ include 'header.php';
      </div>   
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
