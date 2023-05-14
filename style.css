@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+/*Stilizimet e header*/
+
+.nav-link{
+    color: rgba(0, 0, 0, 0.844);
+}
+
+.icon{
+    display: flex;
+    justify-content: right;
+    justify-content: space-evenly;
+}
+
+.icon li{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.415);
+}
+
+.col-title{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.col-title h3{
+    font-family: Dancing;
+}
+
+/*Stilizimet e seksionit 1 per homepage*/
+
+.main-title{
+    position: relative;
+    background-image: url(Images/background2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    color: white;
+    text-shadow: 2px solid wheat;
+}
+
+/*Stilizimet e seksionit 2 per homepage*/
+
+.sec2home{
+    background-color: rgba(84, 90, 94, 0.504);
+    padding-top: 1%;
+}
+
+.title2{
+    text-align: center;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
+
+.white{
+    color: white;
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+/*Stilizimet e seksionit 3 per homepage*/
+
+.porto{
+    padding-bottom: 10%;
+}
+
+.sec3home-text{
+    text-align: center;
+    padding-top: 15%;
+}
+
+/*Stilizimet e footer*/
+
+.my-footer{
+    margin-top: 1%;
+}
+
+.rights{
+    background-color: rgba(0, 128, 0, 0.747);
+}
+
+.col-icon{
+    background-color: rgba(255, 0, 0, 0.867);
+    padding-top: 0.5%;
+}
+
+.rights h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.rights h5{
+    font-size: 1rem;
+}
+
+.the-footer-info h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.the-footer-info h5{
+    font-size: 1rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.social li{
+    list-style: none;
+}
+
+.social li a{
+   color: black;
+}
+
+/*Stilizimet e seksionit 4 per homepage*/
+
+.sec4home{
+    margin-top: 2%;
+}
+
+.texttwo h2{
+    text-align: center;
+}
+
+.mycard{
+    border: none;
+}
+
+/*Stilizimet e seksionit 5 per homepage*/
+
+.sec5home{
+    position: relative;
+    background-image: url(Images/backroma.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.up-input{
+    position: absolute;
+    top: 40%;
+}
+
+.updates{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.updates h3{
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.sign{
+    font-family: Playfair;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.allinputs{
+    width: 73%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.mysubcribebtn{
+    background-color: rgb(56, 55, 55) !important;
+    color: #fff !important;
+    font-family: Raleway;
+    border: none;
+    border-radius: 50px;
+    margin-left: -7%;
+    padding: 5px 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.email{
+    border: none;
+    border-radius: 50px;
+    padding: 14px 225px 14px 14px;
+    font-weight: 600;
+}
+
+
+
+/*Stilizimet e seksionit 1 per cittapage*/
+
+.sec1citta{
+    margin-top: 2%;
+}
+
+.citta h2{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+.citta{
+    background: linear-gradient(to right bottom, #52a481, #eeedeb);
+}
+
+.img-roma{
+    padding-top: 19%;
+}
+
+.kol1-p{
+    padding-top: 15%;
+}
+
+/*Stilizimet e seksionit 2 per cittapage*/
+
+.napoli{
+    margin-top: 2%;
+}
+
+.napoli h4{
+    text-align: center;
+    font-weight: 400;
+}
+
+.tre-napoli{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.photo3{
+    padding-top: 15%;
+}
+
+/*Stilizimet e seksionit 3 per cittapage*/
+
+.sec3citta{
+    margin-top: 1%;
+    background: linear-gradient(to right bottom, #52a481, #eeedeb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up-dates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.up-dates h3{
+    font-weight: bolder;
+}
+
+.all-inputs{
+    width: 29%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.my-subcribebtn{
+    background-color: rgb(42, 41, 41) !important;
+    color: #fff !important;
+    font-family: Raleway;
+    border: none;
+    border-radius: 50px;
+    margin-left: -11%;
+    padding: 5px 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.email2{
+    border: none;
+    border-radius: 50px;
+    padding: 14px 225px 14px 14px;
+}
+
+
+
+/*Stilizimet e seksionit 1 viaggipage*/
+
+.sec1viaggi{
+    margin-top: 2%;
+}
+
+.title-viaggi h2{
+    text-align: center;
+    background: linear-gradient(to left top, rgba(69, 128, 200, 0.677), rgba(226, 224, 220, 0.627));
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+.card1{
+    width: 350px;
+    perspective: 1000px;
+    cursor: pointer;
+    border: none;
+}
+
+.card-inner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1.5s;
+}
+
+.front-face{
+    backface-visibility: hidden;
+}
+
+.front-face img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.back-face{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1d5d7d90;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: rotateY(180deg);
+}
+
+.btn-book{
+  background-color: #9ad09bc5;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 50px;
+  margin: 20px auto 0;
+}
+
+.card1:hover .card-inner{
+    transform: rotateY(-180deg);
+}
+
+/*Stilizimet e seksionit 2 viaggipage*/
+
+.sec2viaggi{
+    margin-top: 2%;
+}
+
+/*Stilizimet e seksionit 3 viaggipage*/
+
+.sec3viaggi{
+    margin-top: 2%;
+}
+
+/*Stilizimet e seksionit 4 viaggipage*/
+
+.sec4viaggi{
+    margin-top: 2%;
+    background: linear-gradient(to left top, rgba(69, 128, 200, 0.677), rgba(226, 224, 220, 0.627));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up-dates2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.up-dates2 h3{
+    font-weight: bolder;
+}
+
+.all-inputs2{
+    width: 29%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.my-subcribebtn2{
+    background-color: rgb(42, 41, 41) !important;
+    color: #fff !important;
+    font-family: Raleway;
+    border: none;
+    border-radius: 50px;
+    margin-left: -11%;
+    padding: 5px 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.email22{
+    border: none;
+    border-radius: 50px;
+    padding: 14px 225px 14px 14px;
+}
+
+/*Stilizimet e seksionit 2 per contattacipage*/
+
+.contact{
+    margin-top: 2%;
+}
+
+.contact-title{
+    text-align: center;
+    background: linear-gradient(to left top, rgba(69, 128, 200, 0.677), rgba(226, 224, 220, 0.627));
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+.contact-title h2{
+    padding-right: 4%;
+}
+
+.contact p{
+    text-align: center;
+    margin: 2%;
+}
+
+.info-cont{
+    margin-top: 1%;
+}
+
+/*Stilizimet e seksionit 3 per faqen contact*/
+
+.maps{
+    margin-top: 2%;
+}
+
+.newyork{
+    display: flex;
+    justify-content: center;
+}
+
